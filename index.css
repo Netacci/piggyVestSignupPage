@@ -20,7 +20,6 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  overflow: auto;
   height:100%;
   padding-bottom: 3rem;
 }
