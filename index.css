@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*background attachment makes the background picture fixed even when scrolling*/
+html {
+  background-image: url(/img/bg1.jpg), url(/img/bg2.jpg), url(/img/bg3.jpg), url(/img/bg4.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left -1% top -13%, right -9% top -1%, left -6% bottom -9%, right -6% bottom -4%;
+  background-size: 15%, 15%, 15%, 15%;
+  background-color: #062863;
+  background-attachment: fixed;
+
+}
+
+
+/*Wraps everything and will center them */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  overflow: auto;
+  height:100%;
+  ;
+  padding-bottom: 3rem;
+}
+
+.piggylogo {
+  height: auto;
+  color: #000000;
+  width: 191px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+img {
+  border-style: solid;
+  border-color: #062863;
+  /* color: #ffffff; */
+  justify-content: center;
+  margin-left: 130px;
+}
+
+/* for the entire form body, this wraps both form header and form body*/
+.form-container {
+  border-radius: 20px 20px 20px 0px;
+  background-color: #ffffff;
+  max-width: 28rem;
+  width: 91%;
+  margin-bottom: 30px;
+}
+
+/*for the form header*/
+.form-header {
+  padding: 30px 0 20px;
+}
+/*The h1 of the form*/
+#form-title {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-size: 24px;
+  color: #083e9e;
+  font-weight: 700px;
+  text-align: center;
+}
+.form-header > p {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  color: #4a5568;
+  font-weight: 400px;
+  text-align: center;
+}
+/*for the form body*/
+.form-body {
+  margin: 20px;
+}
+/*for the 'for' texts in label*/
+.input-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #4a5568;
+}
+/*for each input in the form*/
+.form-item {
+  margin: 20px;
+}
+/*This is to style the placeholder of the inputs*/
+input::placeholder {
+  color: rgb(194, 199, 201);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  font-style: normal;
+}
+/*This is to style inside the input box*/
+.input-col {
+  padding: 15px;
+  margin: 8px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #edf2f7;
+  outline: none;
+  border: none;
+}
+select {
+  border: none;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+/*This is for the sunmit button*/
+
+.submit-btn {
+  color: #ffffff;
+  background-color: #083e9e;
+  border-radius: 12px 12px 12px 0px;
+  width: 90%;
+  cursor: pointer;
+  padding: 14px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px 0px 20px 26px;
+}
+/*This is for the already signed text at the bottom*/
+.bottom > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.bottom {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+.bottom > p {
+  font-size: 14px;
+  font-family: "Karla", sans-serif;
+}
