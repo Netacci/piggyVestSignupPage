@@ -48,7 +48,7 @@ img {
   max-width: 28rem;
   width: 91%;
   margin-bottom: 30px;
-  margin-left:5px;
+  margin-left:50px;
 }
 
 /*for the form header*/
@@ -128,7 +128,7 @@ select {
 .bottom {
   padding: 10px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .bottom > p {
   font-size: 14px;
