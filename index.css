@@ -20,7 +20,6 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  overflow: auto;
   height:100%;
   ;
   padding-bottom: 3rem;
@@ -32,12 +31,13 @@ html {
   width: 191px;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  
 }
 img {
   border-style: solid;
   border-color: #062863;
   /* color: #ffffff; */
-  justify-content: center;
+  
   margin-left: 130px;
 }
 
@@ -95,7 +95,7 @@ input::placeholder {
 .input-col {
   padding: 15px;
   margin: 8px;
-  width: 100%;
+  width: 91%;
   border-radius: 4px;
   background-color: #edf2f7;
   outline: none;
@@ -105,6 +105,7 @@ select {
   border: none;
   font-size: 16px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  width: 91%;
 }
 /*This is for the sunmit button*/
 
@@ -128,8 +129,11 @@ select {
   padding: 10px;
   margin-bottom: 10px;
   margin-left: 120px;
+  
+  
 }
 .bottom > p {
-  font-size: 14px;
+  font-size: 12px;
   font-family: "Karla", sans-serif;
+  
 }
