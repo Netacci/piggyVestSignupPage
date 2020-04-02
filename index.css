@@ -4,7 +4,7 @@
 }
 /*background attachment makes the background picture fixed even when scrolling*/
 html {
-  background-image: url(/img/bg1.jpg), url(/img/bg2.jpg), url(/img/bg3.jpg), url(/img/bg4.jpg);
+  background-image: url(img/bg1.jpg), url(img/bg2.jpg), url(img/bg3.jpg), url(img/bg4.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   background-position: left -1% top -13%, right -9% top -1%, left -6% bottom -9%, right -6% bottom -4%;
   background-size: 15%, 15%, 15%, 15%;
