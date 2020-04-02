@@ -22,13 +22,11 @@ html {
   align-content: center;
   overflow: auto;
   height:100%;
-  ;
   padding-bottom: 3rem;
 }
 
 .piggylogo {
   height: auto;
-  color: #000000;
   width: 191px;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -36,7 +34,6 @@ html {
 img {
   border-style: solid;
   border-color: #062863;
-  /* color: #ffffff; */
   justify-content: center;
   margin-left: 130px;
 }
