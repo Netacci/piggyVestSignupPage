@@ -22,6 +22,7 @@ html {
   align-content: center;
   height:100%;
   padding-bottom: 3rem;
+  overflow: scroll;
 }
 
 .piggylogo {
