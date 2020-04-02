@@ -38,7 +38,7 @@ img {
   border-color: #062863;
   /* color: #ffffff; */
   justify-content: center;
-  margin-left: 130px;
+  margin-left: 110px;
 }
 
 /* for the entire form body, this wraps both form header and form body*/
@@ -133,4 +133,5 @@ select {
 .bottom > p {
   font-size: 14px;
   font-family: "Karla", sans-serif;
+  margin-left:20px
 }
